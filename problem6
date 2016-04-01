@@ -1,0 +1,6 @@
+DIRECTORY=$(pwd)
+for entry in "$DIRECTORY"/*
+do
+	echo $entry":"
+	head -2 $entry
+done
